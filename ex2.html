@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css display</title>
+    <style>
+      .a {
+        display: contents;
+        border: 10px solid rgb(159, 110, 110);
+        background-color: lightgrey;
+        padding: 10px;
+        width: 200px;
+      }
+      .b {
+        border: 1px solid blue;
+        background-color: ligtblue;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The display propery</h1>
+    <h2>display :contents</h2>
+    <div class="a">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit.
+      <div class="b">HELLO WORLD!</div>
+      Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+
+    <p>display: contents does not work in Edge, prior version 79.</p>
+  </body>
+</html>
